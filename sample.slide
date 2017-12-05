@@ -1,0 +1,154 @@
+The Introduction of Go
+
+Grandsys
+Tony Huang
+Software Developer
+yellow24681379@gmail.com
+
+* Hello world
+
+.play -edit sample/helloworld/main.go
+
+* Multiple results
+
+.play -edit sample/multiple-result/main.go
+
+* Named return values
+
+.play -edit sample/named-return-values/main.go
+
+* Type conversions
+
+.play -edit sample/type-conversions/main.go
+
+* For loop
+
+.play -edit sample/loop/for/main.go
+
+* For loop
+
+.play -edit sample/loop/for-only-end/main.go
+
+* Go's while loop
+
+.play -edit sample/loop/while/main.go
+
+* Forever
+
+.play -edit sample/loop/forever/main.go
+
+* If else
+
+.play -edit sample/condition/if/main.go
+
+* If with a short statement
+
+.play -edit sample/condition/if-with-statement/main.go
+
+* Switch
+
+.play -edit sample/condition/switch/main.go
+
+* Switch with no condition
+
+.play -edit sample/condition/switch-no-condition/main.go
+
+* Defer
+
+.play -edit sample/defer/main.go
+
+* Error
+
+.play -edit sample/error/main.go
+
+* Pointer
+
+.play -edit sample/pointer/main.go
+
+* Array
+
+.play -edit sample/data-struct/array/main.go
+
+* Slice
+
+.play -edit sample/data-struct/slice/main.go
+
+* Range
+
+.play -edit sample/data-struct/range1/main.go
+
+* Range
+
+.play -edit sample/data-struct/range2/main.go
+
+* Map
+
+.play -edit sample/data-struct/map/main.go
+
+* Struct
+
+.play -edit sample/struct/struct/main.go
+
+* Struct with pointer
+
+.play -edit sample/struct/pointer/main.go /type Vertex struct/,/fmt.Println/
+
+* Naming
+
+- 字首大寫為Public
+- 字首小寫或 _ 為Private
+
+* OOP
+
+- Go 有物件導向的特性
+- 但Go不使用傳統的繼承
+
+* Struct method
+
+.play -edit sample/struct/method/main.go
+
+* Composition
+
+.code sample/struct/composition/main.go /type Human/,/^}/
+.code sample/struct/composition/main.go /type Student/,/^}/
+.code sample/struct/composition/main.go /type Employee/,/^}/
+
+* Composition
+
+.code sample/struct/composition/main.go /SayHi()/,/^}/
+.play -edit sample/struct/composition/main.go /func main()/,/^}/
+
+* Composition
+
+.code sample/struct/inheritance/main.go /override/,/^}/
+.play -edit sample/struct/inheritance/main.go /func main()/,/^}/
+
+* Interface
+
+.code sample/struct/interface/main.go /type writeGolang/,/^}/
+.code sample/struct/interface/main.go /Employee writeGo/,/^}/
+.code sample/struct/interface/main.go /Student writeGo/,/^}/
+
+* Interface
+
+.play -edit sample/struct/interface/main.go /func main()/,/^}/
+
+* Goroutines
+
+.play -edit sample/concurrency/goroutine/main.go
+
+* Channel
+
+.play -edit sample/concurrency/channel/main.go
+
+* Select
+
+.play -edit sample/concurrency/select/main.go /func fibonacci\(c, quit chan int\)/,/fibonacci\(c, quit\)\n}/
+
+* Mutex
+
+.play -edit sample/concurrency/mutex/main.go /SafeCounter/,/return c.v\[key\]\n}/
+
+* Mutex
+
+.play -edit sample/concurrency/mutex/main.go /func main()/,/^}/
